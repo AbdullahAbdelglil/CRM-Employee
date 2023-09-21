@@ -24,15 +24,15 @@ The Simple Spring CRM Web Application is a straightforward Customer Relationship
 - [Testing with Postman (Demo)](#testing-with-postman-demo)
 - [Contributing](#contributing)
 
-## Technologies Used
 
+## Technologies Used
 - **Backend**: Spring Boot, JPA/Hibernate, Spring Data JPA, Spring Data Rest
 - **Database**: MySQL 8.0
 - **IDE**: IntelliJ IDEA
 - **Testing Tool**: Postman
 
-## Features
 
+## Features
 - List All Employees.
 - Get a specific Employee by ID.
 - Save a new Employee.
@@ -40,10 +40,11 @@ The Simple Spring CRM Web Application is a straightforward Customer Relationship
 - Delete an Employee by ID.
 - Delete all employees.
 
+
 ## Versions
 
 ### About Versions
-All versions of this project share the same set of features. However, the only notable distinction between them is the lack of Spring Data JPA and Spring Data Rest in the source code of some versions. Despite this difference, the project remains functional and efficient, offering users a consistent experience across all versions.
+- All versions of this project share the same set of features. However, the only notable distinction between them is the lack of Spring Data JPA and Spring Data Rest in the source code of some versions. Despite this difference, the project remains functional and efficient, offering users a consistent experience across all versions.
 
 - **V.1.1**
   - This is the initial version of the project. The only difference is the absence of Spring Data JPA and Spring Data Rest in the source code.
@@ -53,6 +54,9 @@ All versions of this project share the same set of features. However, the only n
 
 - **V.1.3**
   - The final version of the project. We have replaced DAO with JPA Repository in the architecture, and Spring Data Rest is now used instead of Rest API in the source code.
+
+
+## Getting Started
 
 ### Prerequisites
 Before you begin, ensure you have met the following requirements:
@@ -71,6 +75,7 @@ To get started, clone this GitHub repository to your local machine: `https://git
 - Build and run the application. The main class is SimpleSpringCrmApplication.
 - The application should start on http://localhost:8080.
 
+
 ## API Endpoints
 The application provides RESTful API endpoints for managing customers and interactions:
 
@@ -81,7 +86,9 @@ The application provides RESTful API endpoints for managing customers and intera
 - To DELETE an employee: `http://localhost:8080/api/employees/employeeId`
 - To DELETE all employees: `http://localhost:8080/api/employees`
 
+
 ## Testing with Postman (Demo)
+
 
 ### GET Request:
 [Watch Demo](https://github.com/AbdullahAbdelglil/CRM-Employee/assets/118194521/8611491f-c230-4f99-8a41-5b9d12e53c26)
@@ -95,6 +102,7 @@ The application provides RESTful API endpoints for managing customers and intera
 ### DELETE Request:
 [Watch Demo](https://github.com/AbdullahAbdelglil/CRM-Employee/assets/118194521/62e3c54c-5a32-4a8a-9c61-9455e8777e1b)
 
+
 ## Contributing
 
 We welcome contributions from the community. If you have ideas for improvements, bug fixes, or additional features, please follow these steps:
@@ -105,4 +113,4 @@ We welcome contributions from the community. If you have ideas for improvements,
 - Push your changes to your forked repository.
 - Create a pull request with a detailed description of your changes.
 
-#### Happy CRM-ing! 🚀
+## Happy CRM-ing! 🚀
