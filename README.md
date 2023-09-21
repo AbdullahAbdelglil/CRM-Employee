@@ -58,7 +58,7 @@ The Simple Spring CRM Web Application is a straightforward Customer Relationship
 
 ## Getting Started
 
-### Prerequisites
+### 1- Prerequisites
 Before you begin, ensure you have met the following requirements:
 
 - Java Development Kit (JDK) 17 or higher installed.
@@ -66,11 +66,12 @@ Before you begin, ensure you have met the following requirements:
 - IntelliJ IDEA or your preferred Java IDE.
 - Postman or similar tools for API testing.
 
-### Clone the Repository
+
+### 2- Clone the Repository
 To get started, clone this GitHub repository to your local machine: `https://github.com/AbdullahAbdelglil/CRM-Employee.git`
 
 
-### Build and Run
+### 3- Build and Run
 - Open the project in IntelliJ IDEA or your preferred IDE.
 - Build and run the application. The main class is SimpleSpringCrmApplication.
 - The application should start on http://localhost:8080.
