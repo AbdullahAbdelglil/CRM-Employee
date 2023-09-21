@@ -14,9 +14,9 @@ The Simple Spring CRM Web Application is a straightforward Customer Relationship
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Versions](#versions)
-    -[V.1](#v.1)
-    -[V.2](#v.2)
-    -[V.3](#v.3)
+  -[V.1.1](#v.1.1)
+  -[V.1.2](#v.1.2)
+  -[V.1.3](#v.1.3)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Clone the Repository](#clone-the-repository)
@@ -49,13 +49,13 @@ All versions of this project share the same set of features. However, the only n
 
 
 
-- **V.1.1:**
+- **V.1.1**
 This is the initial version of the project. The only difference is the absence of Spring Data JPA and Spring Data Rest in the source code.
 
-- **V.1.2:**
+- **V.1.2**
 The second version of the project. We replaced DAO with JPA Repository in the architecture.## Getting Started
 
-- **V.1.3:**
+- **V.1.3**
 The final version of the project. We have replaced DAO with JPA Repository in the architecture, and Spring Data Rest is now used instead of Rest API in the source code. 
 
  
