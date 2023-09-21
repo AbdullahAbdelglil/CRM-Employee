@@ -32,6 +32,7 @@ The Simple Spring CRM Web Application is a straightforward Customer Relationship
 - **IDE**: IntelliJ IDEA
 - **Testing Tool**: Postman
 
+<hr>
 ## Features
 
 - List All Employees.
