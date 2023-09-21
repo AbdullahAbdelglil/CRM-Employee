@@ -1,4 +1,4 @@
-# CRM-Employee-Version-1
+# CRM-Employee
 The Simple Spring CRM Web Application is a straightforward Customer Relationship Management (CRM) system built using the Spring Framework. It offers basic functionality for managing customer interactions and maintaining essential customer data (CRUD). 
 
 
@@ -13,6 +13,10 @@ The Simple Spring CRM Web Application is a straightforward Customer Relationship
 
 - [Technologies Used](#technologies-used)
 - [Features](#features)
+- [Versions](#versions)
+    -[V.1](#v.1)
+    -[V.2](#v.2)
+    -[V.3](#v.3)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Clone the Repository](#clone-the-repository)
@@ -23,7 +27,7 @@ The Simple Spring CRM Web Application is a straightforward Customer Relationship
 
 ## Technologies Used
 
-- **Backend**: Spring Boot, Spring Data, JPA/Hibernate 
+- **Backend**: Spring Boot, JPA/Hibernate, Spring Data JPA, Spring Data Rest 
 - **Database**: MySQL 8.0
 - **IDE**: IntelliJ IDEA
 - **Testing Tool**: Postman
@@ -37,9 +41,24 @@ The Simple Spring CRM Web Application is a straightforward Customer Relationship
 - Delete an Employee by ID.
 - Delete all employees.
 
-  
-## Getting Started
 
+## Versions
+
+### About Versions
+All versions of this project share the same set of features. However, the only notable distinction between them is the lack of Spring Data JPA and Spring Data Rest in the source code of some versions. Despite this difference, the project remains functional and efficient, offering users a consistent experience across all versions.
+
+
+
+- **V.1.1:**
+This is the initial version of the project. The only difference is the absence of Spring Data JPA and Spring Data Rest in the source code.
+
+- **V.1.2:**
+The second version of the project. We replaced DAO with JPA Repository in the architecture.## Getting Started
+
+- **V.1.3:**
+The final version of the project. We have replaced DAO with JPA Repository in the architecture, and Spring Data Rest is now used instead of Rest API in the source code. 
+
+ 
 ### 1- Prerequisites
 Before you begin, ensure you have met the following requirements:
 
